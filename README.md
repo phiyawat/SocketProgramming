@@ -1,5 +1,5 @@
 # SocketProgramming
 CS XI: network with client and server
 
-+ run server -> npm run server
-+ run client -> npm run react
++ run server -> yarn run server
++ run client -> yarn run react
