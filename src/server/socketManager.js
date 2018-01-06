@@ -48,7 +48,7 @@ module.exports = function (socket) {
   socket.on(COMMUNITY_CHAT, (callback) => {
     callback(communityChat)
   })
-  socket.on(MESSAGE_RECIEVED, ({chatId, message}) => {
+  socket.on(MESSAGE_SENT, ({chatId, message}) => {
     sendMessageToChatFromUser(chatId, message)
   })
   socket.on(TYPING, ({chatId, isTyping}) => {
